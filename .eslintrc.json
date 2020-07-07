@@ -1,0 +1,48 @@
+{
+	"extends": "eslint:recommended",
+
+	"globals": {
+		"print":"readonly", // - Print string with system font
+		"font":"readonly", // - Print string with font defined in foreground sprites
+		"clip":"readonly", // - Set screen clipping region
+		"cls":"readonly", // - Clear the screen
+		"pix":"readonly", // - Set/Get pixel color on the screen
+		"line":"readonly", // - Draw line
+		"rect":"readonly", // - Draw filled rectangle
+		"rectb":"readonly", // - Draw rectangle border
+		"circ":"readonly", // - Draw filled circle
+		"circb":"readonly", // - Draw circle border
+		"spr":"readonly", // - Draw sprite by ID, can be rotated or flipped
+		"btn":"readonly", // - Get gamepad button state in current frame
+		"btnp":"readonly", // - Get gamepad button state according to previous frame
+		"sfx":"readonly", // - Play SFX by ID on specific channel
+		"key":"readonly", // - Get keyboard button state in current frame
+		"keyp":"readonly", // - Get keyboard button state relative to previous frame
+		"map":"readonly", // - Draw map region on the screen
+		"mget":"readonly", // - Get map tile index
+		"mset":"readonly", // - Set map tile index
+		"music":"readonly", // - Play music track by ID
+		"peek":"readonly", // - Read a byte value from RAM
+		"poke":"readonly", // - Write a byte value to RAM
+		"peek4":"readonly", // - Read a half byte value from RAM
+		"poke4":"readonly", // - Write a half byte value to RAM
+		"reset":"readonly", // - Reset game to initial state (0.60)
+		"memcpy":"readonly", // - Copy bytes in RAM
+		"memset":"readonly", // - Set byte values in RAM
+		"pmem":"readonly", // - Save integer value to persistent memory
+		"trace":"readonly", // - Trace string to the Console
+		"time":"readonly", // - Returns how many milliseconds have passed since game started
+		"tstamp":"readonly", // - Returns the current Unix timestamp in seconds (0.80)
+		"mouse":"readonly", // - Get XY and press state of mouse/touch
+		"sync":"readonly", // - Copy modified sprites/map to the cartridge
+		"tri":"readonly", // - Draw filled triangle
+		"textri":"readonly", // - Draw triangle filled with texture
+		"exit":"readonly", // - Interrupt program and return to console
+		"fget":"readonly", // - Returns sprite flag (0.80)
+		"fset":"readonly" // - Set sprite flag (0.80)
+	},
+
+	"rules": {
+		"semi": ["error", "never"]
+	}
+}
