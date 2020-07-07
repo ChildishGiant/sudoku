@@ -585,7 +585,7 @@ function TIC () {
 		}
 
 		// If b is down and it's not a protected cell
-		if (b && !ogs[selected.x][selected.y]) {
+		if ((b || key(51) || key(52) ) && !ogs[selected.x][selected.y]) {
 
 			// Wipe cell
 			grid[selected.x][selected.y] = ".";

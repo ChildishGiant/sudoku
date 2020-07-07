@@ -12,5 +12,4 @@ TODO:
 ## Attributations
 
 - [Sudoku.js](https://github.com/robatron/sudoku.js/) does all of the heavy lifting when it comes to generating and checking the puzzles.
-
 - The joystick comes from the [Pixel Button Prompts](https://retrocademedia.itch.io/buttonprompts4) asset pack
